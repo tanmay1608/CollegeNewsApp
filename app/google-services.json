@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "1041353178338",
+    "firebase_url": "https://instagram-e862a.firebaseio.com",
+    "project_id": "instagram-e862a",
+    "storage_bucket": "instagram-e862a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041353178338:android:b336613ce460011273f2bb",
+        "android_client_info": {
+          "package_name": "com.example.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041353178338-lnm44gg00kjfivdk9pkaov903b0841cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2w7TtDxoZg7uqsGleA9QcptxoT0kCN24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041353178338-lnm44gg00kjfivdk9pkaov903b0841cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041353178338:android:3ad88209afe2182773f2bb",
+        "android_client_info": {
+          "package_name": "com.example.collegenews"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041353178338-lnm44gg00kjfivdk9pkaov903b0841cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2w7TtDxoZg7uqsGleA9QcptxoT0kCN24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041353178338-lnm44gg00kjfivdk9pkaov903b0841cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041353178338:android:21bc3101f379b51373f2bb",
+        "android_client_info": {
+          "package_name": "com.example.instagram"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041353178338-lnm44gg00kjfivdk9pkaov903b0841cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2w7TtDxoZg7uqsGleA9QcptxoT0kCN24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041353178338-lnm44gg00kjfivdk9pkaov903b0841cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1041353178338:android:be638945c5ee6fec73f2bb",
+        "android_client_info": {
+          "package_name": "com.example.mlkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1041353178338-lnm44gg00kjfivdk9pkaov903b0841cj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2w7TtDxoZg7uqsGleA9QcptxoT0kCN24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1041353178338-lnm44gg00kjfivdk9pkaov903b0841cj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

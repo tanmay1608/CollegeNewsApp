@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F8F9FB"
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity">
+
+    <!--    <ImageView-->
+
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="275dp"-->
+    <!--        android:src="@drawable/img_back"-->
+    <!--        android:scaleType="fitXY"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_alignParentLeft="true"-->
+    <!--        android:layout_alignParentTop="true"-->
+
+
+    <!--        />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        >
+        <!--            <androidx.cardview.widget.CardView-->
+        <!--                android:layout_width="match_parent"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                app:cardBackgroundColor="#023165"-->
+        <!--                app:cardCornerRadius="20dp"-->
+        <!--                android:layout_margin="10dp"-->
+        <!--                android:elevation="8dp"-->
+        <!--                >-->
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="20dp"
+
+            android:elevation="8dp"
+            android:layout_margin="5dp"
+            android:layout_marginBottom="10dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+
+                android:scaleType="fitXY"
+
+                android:src="@drawable/pbimg"
+                ></ImageView>
+
+            <!--            </androidx.cardview.widget.CardView>-->
+
+        </androidx.cardview.widget.CardView>
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                >
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Introduction"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff323232"
+                    android:fontFamily="@font/playfair_display"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    ></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:textColor="#ff323232"
+                    android:fontFamily="@font/montserrat"
+                    android:text="@string/intro_text"></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff323232"
+                    android:text="@string/intro2_text"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_margin="10dp"
+                    ></TextView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="5dp"
+                    android:background="#ff323232"
+                    ></View>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Functional Structure"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="#ff323232"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_margin="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff323232"
+                    android:text="@string/fs"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_margin="10dp"
+                    ></TextView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff323232"
+                    android:text="1. Cairn India Limited"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/montserrat"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff323232"
+                    android:text="2. Vakrangee Softwares Limited"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff323232"
+                    android:text="3. Genpact India Limited"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginLeft="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#ff323232"
+                    android:text="4. National Engineering Industries Limited"
+                    android:fontFamily="@font/montserrat"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="10dp"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_margin="5dp"
+                    android:background="#ff323232"
+                    ></View>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_horizontal"
+                    android:layout_margin="10dp"
+                    >
+                    <ImageView
+                        android:id="@+id/fb"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/fb"
+                        android:layout_marginRight="20dp"
+                        />
+                    <ImageView
+                        android:id="@+id/insta"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/insta"
+                        android:layout_marginRight="20dp"/>
+                    <ImageView
+                        android:id="@+id/twitter"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/twitter"
+                        android:layout_marginRight="20dp"
+                        />
+                    <ImageView
+                        android:id="@+id/linkedin"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/linkedin"
+                        android:layout_marginRight="20dp"/>
+                    <ImageView
+                        android:id="@+id/college_location"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/ic_baseline_location_on_24"
+                        android:layout_marginRight="20dp"/>
+                    <ImageView
+                        android:id="@+id/college_yt"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/yt"
+                        ></ImageView>
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+    </LinearLayout>
+
+
+
+</RelativeLayout>

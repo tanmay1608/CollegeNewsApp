@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">College News App</string>
+    <string name="intro_text">Indian Institute of Information Technology, Kota (IIIT, Kota) is an institute of national importance.
+        IIIT Kota is a joint venture of the Ministry of Human Resource Development (MHRD) Govt. of India and Govt. of Rajasthan with Industry Partners in Public-Private-Partnership (PPP) mode. IIIT, Kota was established in 2013.
+        Currently the institute is mentored by Malaviya National Institute of Technology Jaipur (MNIT Jaipur) and situated at MNIT Jaipur.
+        The main site of IIIT, Kota shall be constructed at Ranpur near Kota on 100.37 acres of land made available by the Govt. of Rajasthan.
+        </string>
+    <string name="intro2_text">The institute is governed by the eminent personalities of the Government, Industry and Academia. Currently we offer B.Tech in the discipline of Computer Science &amp;amp Engineering and Electronics &amp; Communication Engineering only.</string>
+    <string name="fs">The functional structure of IIIT, Kota consists of (i) Governing Body (ii) Finance Committee (iii) Building and Works Committee (iv) Academic Senate. The institute has the following four supportive and active Industrial Partners as envisioned in the mission and vision of the Institute.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
